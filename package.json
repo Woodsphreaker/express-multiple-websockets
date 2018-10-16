@@ -1,11 +1,25 @@
 {
-  "name": "express-websockets",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "express-multiple-websockets",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon ./bin/www"
   },
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "express-ws": "^4.0.0",
+    "morgan": "~1.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-fp": "^2.3.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "express-list-endpoints": "^3.0.1"
+  }
 }
